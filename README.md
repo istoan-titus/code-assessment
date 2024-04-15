@@ -71,8 +71,6 @@ To run the backend project using Docker, make sure you have Docker installed on 
 1. Build the Docker image:
 Sure, here's the combined README content in a single block that you can copy:
 
-perl
-Copy code
 # Frontend and Backend Projects
 
 ## Frontend Project
@@ -92,20 +90,11 @@ To run the frontend project locally, follow these steps:
 2. Navigate to the project directory:
 cd frontend
 
-markdown
-Copy code
-
 3. Install dependencies:
 npm install
 
-markdown
-Copy code
-
 4. Start the development server:
 npm start
-
-sql
-Copy code
 
 This will start the development server and open the application in your default web browser.
 
@@ -116,14 +105,8 @@ To run the frontend project using Docker, make sure you have Docker installed on
 1. Build the Docker image:
 docker build -t frontend .
 
-markdown
-Copy code
-
 2. Run the Docker container:
 docker run -p 5173:5173 frontend
-
-vbnet
-Copy code
 
 This will start the container and expose port 5173 to access the application.
 
@@ -148,32 +131,17 @@ To run the backend project locally, follow these steps:
 2. Navigate to the project directory:
 cd backend
 
-markdown
-Copy code
-
 3. Install dependencies:
 npm install
-
-markdown
-Copy code
 
 4. Apply database migrations:
 npx prisma migrate deploy
 
-markdown
-Copy code
-
 5. Seed the database:
 npx prisma db seed
 
-markdown
-Copy code
-
 6. Start the server:
 npm start
-
-sql
-Copy code
 
 This will start the backend server.
 
@@ -187,13 +155,6 @@ docker build -t backend .
 2. Run the Docker container:
 docker run -p 3000:3000 backend
 
-vbnet
-Copy code
-
 This will start the container and expose port 3000 to access the backend API.
 
 #### Seeding Data
-
-
-
-For more information on how to create and run Prisma seed scripts, refer to the Prism
